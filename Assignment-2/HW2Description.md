@@ -18,3 +18,10 @@ So for example,
 (my-map2-reduce #'* #'+ '(1 2 3) '(4 5 6)) ==> 32
 There is no need to worry about the case where the list parameters to my-map2 have different lengths.
 Summary: use the my-map-reduce from step 1 to write the inner-product of two vectors.
+
+**NOTE**
+Complexity was added to the original assignment as a personal challenge. 
+
+Some added functionality includes:
+* Error Handling - The functions now handle errors based on whether the input is a list
+* Sorting - More functions were added that operate on lists, such as a function to sort a list or filter based on the predicate
